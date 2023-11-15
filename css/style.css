@@ -34,9 +34,13 @@ nav ul{
   padding-bottom: 20px;
 }
 
-footer{
+footer {
   padding: 10px;
-  font-size: 12px;
+  font-size: 13px;
+}
+
+figcaption{
+  font-size: 13px;
 }
 
 #environment h3,
