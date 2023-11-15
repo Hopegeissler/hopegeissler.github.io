@@ -89,6 +89,15 @@ footer{
   background-color: #ededf4;
 }
 
+th,
+td {
+  padding-right: 20px;
+}
+
+img{
+  border: 2px solid #ffffff;
+}
+
 a,
 a:link{
   color: #594433;
@@ -158,7 +167,12 @@ h2{
   grid-row: 4;
 }
 
-#tulips{
+#symbols figure {
+  grid-column: 2/3;
+  grid-row: 4;
+}
+
+#people-society figure{
   grid-column: 2/3;
   grid-row: 4;
 }
