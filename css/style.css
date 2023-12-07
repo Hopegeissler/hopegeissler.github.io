@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Vollkorn+SC&display=swap');
+
+body{
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  background-color: #E4DDD6;
+}
+
+nav ul{
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 5px;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header{
+  grid-column: 1/3;
+  grid-row: 1;
+}
+
+nav{
+  grid-column: 1/3;
+  grid-row: 2;
+  text-align: center;
+}
+
+#welcome{
+  grid-column: 1/3;
+  grid-row: 3;
+  text-align: center;
+}
+
+#school{
+  grid-column: 1/2;
+  grid-row: 4;
+}
+
+#abroad{
+  grid-column: 2/3;
+  grid-row: 5;
+}
+
+#abroad p{
+  padding: 0px 20px;
+  line-height: 30px;
+}
+
+#school p{
+  padding-right: 20px;
+  line-height: 30px;
+}
+
+p{
+  line-height: 30px;
+}
+
+#contact{
+  grid-column: 1/3;
+  grid-row: 6;
+  text-align: center;
+}
+
+#journalism{
+  grid-column: 1/3;
+  grid-row: 3
+}
+
+#packages{
+  grid-column: 1/3;
+  grid-row: 4;
+}
+
+#working{
+  grid-column: 1/2;
+  grid-row: 5;
+}
+
+#orange{
+  grid-column: 2/3;
+  grid-row: 5;
+  padding-top: 42px;
+}
+
+#journalism h2{
+  margin: 10px 0;
+}
+
+#packages h3{
+  margin: 10px 0;
+}
+
+#packages figure{
+  text-align: center;
+}
+
+#working p{
+  padding-right: 15px;
+}
+
+#title{
+  grid-column: 1/3;
+  grid-row: 3;
+}
+
+#abbott{
+  grid-column: 1/2;
+  grid-row: 4;
+  padding-right: 15px;
+}
+
+#pilot{
+  grid-column: 2/3;
+  grid-row: 4;
+  padding-right: 15px;
+}
+
+#masked{
+  grid-column: 1/2;
+  grid-row: 5;
+  padding-right: 15px;
+}
+
+#aspca{
+  grid-column: 2/3;
+  grid-row: 5;
+  padding-right: 15px;
+}
+
+#title h2{
+  margin: 10px 0;
+}
+
+#intro{
+  grid-column: 1/3;
+  grid-row: 3;
+}
+
+figure{
+  margin: 0;
+  padding-right: 20px;
+}
+
+figcaption{
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+#packages figcaption{
+  padding: 0 120px;
+}
+
+#packages h4{
+  padding-left: 20px;
+}
+
+h1{
+  font-family: 'Vollkorn SC', 'Garamond', serif;
+  margin: 8px 0;
+}
+
+iframe,
+img{
+  border: 2px solid #615050;
+}
+
+h2,
+h3,
+h4{
+  font-family: 'Old Standard TT', 'Times New Roman', serif;
+}
+
+h4{
+  font-style: oblique;
+}
+
+p,
+li{
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 16px;
+}
