@@ -237,3 +237,23 @@ a:active{
   color: #86BD77;
 }
 
+/*
+.emoji{
+  font-size: 30px;
+  cursor: pointer;
+  user-select: none;
+  display:inline;
+}
+
+.smile{
+  display: none;
+}
+
+.wave{
+  display: none;
+}
+
+.active{
+  display: block;
+}
+*/
