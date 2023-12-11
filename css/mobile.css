@@ -1,0 +1,213 @@
+@media (max-width: 414px) {
+
+/*index page*/
+  body{
+    margin: 20px auto;
+    padding: 15px 20px;
+  }
+  
+  nav ul{
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  nav li{
+    margin: 10px;
+    padding: 0 5px;
+  }
+  
+  #contact span{
+    display: none;
+  }
+  
+  #school{
+    grid-column: 1/3;
+    grid-row: 4;
+  }
+  
+  #places{
+    grid-column: 1/3;
+    grid-row: 5;
+  }
+  
+  #places p,
+  #school p{
+    padding: 0px;
+    line-height: 30px;
+  }
+
+  #school p{
+    margin-bottom: 0;
+  }
+  
+  p{
+    line-height: 30px;
+  }
+  
+  #contact{
+    grid-column: 1/3;
+    grid-row: 8;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #contact span{
+    display: contents;
+  }
+
+  #contact p{
+    display: inline-block;
+    padding: 10px 5px;
+    margin: 10px;
+  }
+  
+  /*journalism page*/
+  #working{
+    grid-column: 1/3;
+    grid-row: 5;
+  }
+  
+  #orange{
+    grid-column: 1/3;
+    grid-row: 6;
+    padding-top: 10px;
+  }
+  
+  #packages h3{
+    margin: 0;
+  }
+
+  figcaption{
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #packages figcaption{
+    padding: 0;
+    text-align: left;
+  }  
+  
+  #packages figure{
+    text-align: left;
+  }
+  
+  #working p,
+  #orange p{
+    padding-right: 10px;
+  }
+  
+  #working h4,
+  #orange h4{
+    margin: 10px 0;
+    padding-right: 15px;
+  }
+
+/*screenwriting page*/
+
+  #abbott{
+    grid-column: 1/3;
+    grid-row: 4;
+    padding-right: 15px;
+  }
+
+  #pilot{
+    grid-column: 1/3;
+    grid-row: 5;
+    padding-right: 15px;
+  }
+
+  #masked{
+    grid-column: 1/3;
+    grid-row: 6;
+    padding-right: 15px;
+  }
+
+  #aspca{
+    grid-column: 1/3;
+    grid-row: 7;
+    padding-right: 15px;
+  }
+
+  #abbott h3,
+  #pilot h3,
+  #masked h3, 
+  #aspca h3{
+    font-style: oblique;
+    margin: 10px 0;
+  }
+
+/*sketches page*/
+
+  #joker{
+    grid-column: 1/3;
+    grid-row: 4;
+  }
+
+  #utime{
+    grid-column: 1/3;
+    grid-row: 5;
+  }
+
+  #otw196{
+    grid-column: 1/3;
+    grid-row: 6;
+  }
+
+  #otw200{
+    grid-column: 1/3;
+    grid-row: 7;
+  }
+
+  #joker h3,
+  #utime h3,
+  #otw196 h3,
+  #otw200 h3,
+  #packages h3{
+    margin: 0;
+  }
+
+/*general*/
+  img{
+    margin-right: 20px;
+    width: 100%;
+  }
+
+  p,
+  li{
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 20px;
+  }
+
+  #welcome{
+    padding: 10px 0;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+
+  h2{
+    font-size: 35px;
+  }
+
+  iframe,
+  img{
+    border: none;
+  }
+
+  iframe{
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+  }
+
+  h3{
+    font-size: 30px;
+  }
+
+  h4{
+    font-size: 25px;
+  }
+}

@@ -21,6 +21,10 @@ nav li{
   margin-right: 20px;
 }
 
+#contact span{
+  display: none;
+}
+
 header{
   grid-column: 1/3;
   grid-row: 1;
@@ -43,12 +47,12 @@ nav{
   grid-row: 4;
 }
 
-#abroad{
+#places{
   grid-column: 2/3;
   grid-row: 5;
 }
 
-#abroad p{
+#places p{
   padding: 0px 20px;
   line-height: 30px;
 }
@@ -69,13 +73,9 @@ p{
   margin-top: 20px;
 }
 
-#contact ul{
-  list-style-type: none;
+#contact p{
   padding-left: 0px;
   margin: 5px;
-}
-
-#contact li{
   padding-bottom: 10px;
 }
 
