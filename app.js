@@ -14,3 +14,28 @@ waveFace.addEventListener('click', () => {
     waveFace.classList.remove('active');
   }
 });
+
+//html code//
+<div class="emoji smile active">🙂</div>
+<div class="emoji wave">🤗</div>
+<script src="app.js"></script>
+
+//css code//
+.emoji{
+  font-size: 30px;
+  cursor: pointer;
+  user-select: none;
+  display:inline;
+}
+
+.smile{
+  display: none;
+}
+
+.wave{
+  display: none;
+}
+
+.active{
+  display: block;
+}
