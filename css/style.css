@@ -198,13 +198,17 @@ h2{
 }
 
 #abbott h3,
-#pilot h3,
-#masked h3, 
-#aspca h3,
-#joker h3{
-  font-style: oblique;
-  margin: 15px 0 15px 0;
+  #pilot h3,
+  #masked h3, 
+  #aspca h3,
+  #joker h3,
+  #utime h3,
+  #otw196 h3,
+  #otw200 h3{
+    font-style: oblique;
+    margin: 15px 0 15px 0;
 }
+
 
 iframe,
 img{
