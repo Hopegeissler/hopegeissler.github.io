@@ -197,6 +197,10 @@ figcaption{
   text-align: left;
 }
 
+#joker figcaption{
+  text-align: left;
+}
+
 h1{
   font-family: 'Vollkorn SC', 'Garamond', serif;
   margin: 0;
