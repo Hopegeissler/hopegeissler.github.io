@@ -99,7 +99,7 @@ p{
   grid-row: 5;
 }
 
-#orange{
+#filmmaking{
   grid-column: 2/3;
   grid-row: 5;
   padding-top: 42px;
@@ -130,7 +130,7 @@ p{
 }
 
 #working h4,
-#orange h4{
+#filmmaking h4{
   margin-bottom: 15px;
 }
 
